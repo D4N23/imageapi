@@ -1,4 +1,4 @@
-package oi.github.D4N23.imageapi.images;
+package oi.github.D4N23.imageapi.application.images;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,7 +10,7 @@ import lombok.RequiredArgsConstructor;
 import oi.github.D4N23.imageapi.domain.entity.Image;
 import oi.github.D4N23.imageapi.domain.enums.ImageExtension;
 import oi.github.D4N23.imageapi.domain.service.ImageService;
-import oi.github.D4N23.imageapi.infra.repositoy.ImageRepository;
+import oi.github.D4N23.imageapi.infra.repositoy.image.ImageRepository;
 
 
 @Service

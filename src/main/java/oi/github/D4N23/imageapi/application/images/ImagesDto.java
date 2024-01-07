@@ -1,4 +1,4 @@
-package oi.github.D4N23.imageapi.images.dto;
+package oi.github.D4N23.imageapi.application.images;
 
 import java.time.LocalDate;
 

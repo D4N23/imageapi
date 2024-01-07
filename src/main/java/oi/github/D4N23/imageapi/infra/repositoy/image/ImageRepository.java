@@ -1,4 +1,4 @@
-package oi.github.D4N23.imageapi.infra.repositoy;
+package oi.github.D4N23.imageapi.infra.repositoy.image;
 
 import java.util.List;
 

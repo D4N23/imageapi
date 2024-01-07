@@ -1,4 +1,4 @@
-package oi.github.D4N23.imageapi.images.mappers;
+package oi.github.D4N23.imageapi.application.images;
 
 import java.io.IOException;
 import java.util.List;
@@ -9,7 +9,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import oi.github.D4N23.imageapi.domain.entity.Image;
 import oi.github.D4N23.imageapi.domain.enums.ImageExtension;
-import oi.github.D4N23.imageapi.images.dto.ImagesDto;
 
 @Component
 public class ImageMapper {

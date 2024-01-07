@@ -1,12 +1,9 @@
-package oi.github.D4N23.imageapi.images.controllers;
+package oi.github.D4N23.imageapi.application.images;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import oi.github.D4N23.imageapi.domain.entity.Image;
 import oi.github.D4N23.imageapi.domain.enums.ImageExtension;
-import oi.github.D4N23.imageapi.images.ImagesServiceImpl;
-import oi.github.D4N23.imageapi.images.dto.ImagesDto;
-import oi.github.D4N23.imageapi.images.mappers.ImageMapper;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
