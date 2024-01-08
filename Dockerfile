@@ -4,7 +4,7 @@ COPY . .
 RUN mvn dependency:resolve
 RUN mvn clean package -DskipTests
 
-FROM openjdk-17
+FROM dvmarques/openjdk-17-jdk-alpine-with-timezone:latest
 WORKDIR  /app
 COPY --from=builder ./app/target/*.jar ./application.jar
 EXPOSE 8080
