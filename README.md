@@ -1,11 +1,20 @@
-<h1 align="center">Api Crud  de Imagens</h1>
+<h1 align="center">Api em Container para Crud de Imagens com Spring-Boot</h1> 
 
-###
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
+</div>
+
 
 <p align="left">Esta API Spring Boot é projetada para fornecer funcionalidades CRUD (Create, Read, Update, Delete) para gerenciamento de imagens. O sistema permite que os usuários autenticados realizem operações de criação, leitura, atualização e exclusão de imagens, com suporte à autenticação usando o Spring Security e geração de tokens JWT (JSON Web Token).</p>
 <p aling="left"> As imagens são persistidas em um banco de dados PostgreSQL, que é executado dentro de um container Docker.
   Essa abordagem oferece uma solução eficiente para armazenar e gerenciar dados de imagens de forma escalável e consistente.</p>
-###
+
 
 <h2 align="center">Recursos Principais</h2>
 
