@@ -1,4 +1,4 @@
-<h1 align="center">Api em Container para Crud de Imagens com Spring-Boot</h1> 
+<h1 align="center">Api Spring-Boot em Container - CRUD de Imagens com Autenticação</h1> 
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
