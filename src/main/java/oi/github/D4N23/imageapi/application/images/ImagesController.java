@@ -39,9 +39,9 @@ public class ImagesController {
                                @RequestParam("name") String name,
                                @RequestParam("tags") List<String> tags) throws IOException{
                     log.info("Imagem recebida: name: {}, size: {}", file.getOriginalFilename(), file.getSize());
-                    // log.info("Nome definido para a imagem: {}", name);
-                    // log.info("Tags: {}", tags);
-                    // log.info("Content Type: {}", file.getContentType());
+                    log.info("Nome definido para a imagem: {}", name);
+                    log.info("Tags: {}", tags);
+                    log.info("Content Type: {}", file.getContentType());
                     // log.info("Media Type: {}", MediaType.valueOf(file.getContentType()));            
 
                                 Image image =  mapper.mapToImage(file, name, tags);
